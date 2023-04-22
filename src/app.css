@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat&family=Nanum+Gothic+Coding&display=swap');
+
+:root {
+	--font-heading: 'Comfortaa', arial;
+	--font-text: 'Montserrat', sans-serif;
+	--font-accent: 'Nanum Gothic Coding', monospace;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #222;
+	color: #ddd;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: var(--font-heading);
+}
+
+p {
+	font-family: var(--font-text);
+}
+
+a,
+li {
+	font-family: var(--font-accent);
+}
+
+a {
+	color: #ccf;
+	font-size: 1.5rem;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #fcc;
+}
