@@ -1,7 +1,7 @@
 <script lang="ts">
 	const links = [
 		{
-			title: 'home',
+			title: 'Home',
 			path: '/'
 		},
 		{

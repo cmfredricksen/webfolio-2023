@@ -5,7 +5,6 @@
 <style>
 	footer {
 		padding: 2rem 0;
-		margin-top: 70vh;
 	}
 	p {
 		text-align: center;
